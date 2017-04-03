@@ -1,195 +1,35 @@
 TinyTurtle.apply(window);
 
-function square(x){
-    forward(x);
-    right(90);
-    forward(x);
-    right(90);
-    forward(x);
-    right(90);
-    forward(x);
-    right(90);
 
-}
-square(20);
-
-function triangle(x){
-    forward(x);
-    right(120);
-    forward(x);
-    right(120);
-    forward(x);
-    right(120);
+// function para(){
+//     forward(10);
+//     right(90);
+//     forward(10);
+//     right(90);
+//     forward(20);
+//     right(90);
+//     forward(20);
+//     right(90);
+//     forward(30);
+//     right(90);
+//     forward(30);
+//     right(90);
     
-}
-triangle(20);
+// };
+// para();
 
-function hexagon(x){
-    forward(x);
-    right(60);
-    forward(x);
-    right(60);
-    forward(x);
-    right(60);
-    forward(x);
-    right(60);
-    forward(x);
-    right(60);
-    forward(x);
-    right(60);
-    
-}
-hexagon(30);
-
-
-function shape(x, y){
-    forward(x);
-    right(y);
-    forward(x);
-    right(y);
-    forward(x);
-    right(y);
-    forward(x);
-    right(y);
-    forward(x);
-    right(y);
-    forward(x);
-    right(y);
-    forward(x);
-    right(y);
-    forward(x);
-    right(y);forward(x);
-    right(y);
-    forward(x);
-    right(y);
-    forward(x);
-    right(y);
-    forward(x);
-    right(y);
-    forward(x);
-    right(y);
-    forward(x);
-    right(y);
-    forward(x);
-    right(y);
-    forward(x);
-    right(y);
-    forward(x);
-    right(y);
-    forward(x);
-    right(y);
-    forward(x);
-    right(y);
-    forward(x);
-    right(y);
-    forward(x);
-    right(y);
-    forward(x);
-    right(y);
-    forward(x);
-    right(y);
-    forward(x);
-    right(y);
-    forward(x);
-    right(y);
-    forward(x);
-    right(y);
-    forward(x);
-    right(y);
-    forward(x);
-    right(y);
-    forward(x);
-    right(y);
-    forward(x);
-    right(y);
-    forward(x);
-    right(y);
-    forward(x);
-    right(y);
-    forward(x);
-    right(y);
-    forward(x);
-    right(y);
-    forward(x);
-    right(y);
-    forward(x);
-    right(y);
-    forward(x);
-    right(y);
-    forward(x);
-    right(y);
-    forward(x);
-    right(y);
-    forward(x);
-    right(y);
-    forward(x);
-    right(y);
-    forward(x);
-    right(y);
-    forward(x);
-    right(y);
-    forward(x);
-    right(y);
-    forward(x);
-    right(y);
-    forward(x);
-    right(y);
-    forward(x);
-    right(y);
-    forward(x);
-    right(y);
-    forward(x);
-    right(y);
-    forward(x);
-    right(y);
-    forward(x);
-    right(y);
-    forward(x);
-    right(y);
-    forward(x);
-    right(y);
-    forward(x);
-    right(y);
-    forward(x);
-    right(y);
-    forward(x);
-    right(y);
-    forward(x);
-    right(y);
-    forward(x);
-    right(y);
-    forward(x);
-    right(y);
-    forward(x);
-    right(y);
-    forward(x);
-    right(y);
-    forward(x);
-    right(y);
-    
-    
-}
-shape(40, 70)
-
-function shape(x, y){
-    forward(x);
-    right(y);
-    forward(x);
-    right(y);
-    forward(x);
-    right(y);
-    forward(x);
-    right(y);
-    forward(x);
-    right(y);
-    forward(x);
-    right(y);
-    forward(x);
-    right(y);
-    forward(x);
-    right(y);
-    
-}
-shape(30, 50)
-
+function para(){
+    for(var i=0; i<1; i=i+1){
+        
+        for( var j=10; j<300; j=j+10){
+            forward(j);
+            right(90);
+            forward(j);
+            right(90);
+            
+            }
+            
+        }
+};
+para();
 stamp();
